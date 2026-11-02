@@ -15,11 +15,6 @@
     "sha256": "ee1024731db7c6ed96643570d2a8644810a727f1d1873a4867e72f3c4b1581c3"
   },
   {
-    "path": "MULAI_DI_SINI.txt",
-    "bytes": 1008,
-    "sha256": "d922edf51ab2e4e7ce19443ab9c874a9ddc130476b34da1d7e3e7c991333cf37"
-  },
-  {
     "path": "PACKAGE_PROVENANCE.json",
     "bytes": 10967,
     "sha256": "d8c0cbf70741689ee05464c2ccfd6cd48bf160c5c0bac6e468a636399256ad71"
