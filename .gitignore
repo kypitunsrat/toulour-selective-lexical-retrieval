@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.sql
+!data/lexical/reviewer_fixture.sql
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+.venv/
+verification_output/
+private/
+authentication/
