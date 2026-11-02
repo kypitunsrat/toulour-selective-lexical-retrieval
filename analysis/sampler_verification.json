@@ -1,0 +1,9 @@
+{
+  "independent_python_translation": true,
+  "not_php_execution": true,
+  "cases_match": true,
+  "allocation_match": true,
+  "source_overlap_with_exclusion_manifest": 0,
+  "query_overlap_with_exclusion_manifest": 0,
+  "unique_source_roots": 600
+}

@@ -1,0 +1,76 @@
+{
+  "audit_date": "2026-10-31",
+  "three_project_archives_have_identical_65_files": true,
+  "historical_approved_corpus_count": 4584,
+  "historical_corpus_sha256": "e3b0b1abb17915c2f585cce6eab2b3506dd044bce925c3cc6baf78a5794b3761",
+  "historical_corpus_recomputed_matches": true,
+  "code_matches": [
+    {
+      "file": "services/SearchService.php",
+      "sha256": "0e486c777ad3bc0d699719ee52f1eaa6778b368e63cdc2657408a43c6dae0ac6",
+      "matches_historical_run": true
+    },
+    {
+      "file": "services/RankingService.php",
+      "sha256": "1c9661ec5ffd332d2118c22e0b68911e43580773692faa0c1b47a57a23030dbb",
+      "matches_historical_run": true
+    },
+    {
+      "file": "controllers/EvaluationController.php",
+      "sha256": "ce20a222a847cd51e23a7b3bbef088c698f36646757cf5f31b30f1ad6707f32b",
+      "matches_historical_run": true
+    }
+  ],
+  "benchmark_exports": [
+    {
+      "folder": "Final Test 700 – Frozen v1.0 – Schema 3.6",
+      "summary_file": "hasil_benchmark_tolour_20260824_113732 (1).csv",
+      "recorded_run_id": "22",
+      "metric_matching_run_ids": [
+        22
+      ],
+      "scenario_count": 7
+    },
+    {
+      "folder": "Main Development Post-Audit",
+      "summary_file": "hasil_benchmark_tolour_20260823_201111.csv",
+      "recorded_run_id": null,
+      "metric_matching_run_ids": [],
+      "scenario_count": 7
+    },
+    {
+      "folder": "Main Development Post-Audit Schema 3.6",
+      "summary_file": "hasil_benchmark_tolour_20260824_110227.csv",
+      "recorded_run_id": "21",
+      "metric_matching_run_ids": [
+        21
+      ],
+      "scenario_count": 7
+    },
+    {
+      "folder": "pilot result, run 9 dataset 5",
+      "summary_file": "hasil_benchmark_tolour_20260823_191224.csv",
+      "recorded_run_id": "9",
+      "metric_matching_run_ids": [
+        9
+      ],
+      "scenario_count": 7
+    },
+    {
+      "folder": "pre audit",
+      "summary_file": "hasil_benchmark_tolour_20260823_193140.csv",
+      "recorded_run_id": "10",
+      "metric_matching_run_ids": [
+        10
+      ],
+      "scenario_count": 7
+    },
+    {
+      "diagnostic_file": "error_analysis_tolour_20260824_113732 (1).csv",
+      "case_count": 700,
+      "matches_old_database": true
+    }
+  ],
+  "bootstrap_analysis_script_found": false,
+  "note": "Static file and data verification; no PHP/MariaDB execution. Account identifiers do not establish independent human annotation."
+}

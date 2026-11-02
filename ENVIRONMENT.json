@@ -1,0 +1,29 @@
+{
+  "reported_original_hardware": {
+    "os": "Windows 10 64-bit",
+    "cpu": "Intel Core i7-7700HQ @ 2.80 GHz",
+    "logical_cpus": 8,
+    "ram_gb": 16
+  },
+  "original_retrieval": {
+    "php": "8.2.12",
+    "mariadb": "10.4.32",
+    "extensions": [
+      "mbstring",
+      "pdo_mysql"
+    ],
+    "database_collation": "utf8mb4_general_ci",
+    "intl_normalizer": "Conditional in source; original extension availability not independently established.",
+    "timing": "Single-process preloaded corpus; one warmup and three measured calls per case/scenario; setup/SQL loading and network/browser excluded."
+  },
+  "revision_analysis": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "rng": "PCG64"
+  },
+  "limits": [
+    "No original composer.lock or exact OS build image supplied.",
+    "PHP/MariaDB unavailable in the revision environment; no runtime reproduction or fixture import was executed.",
+    "Raw individual retrieval timing calls not archived; the three-call per-query mean/median/P95 were archived."
+  ]
+}

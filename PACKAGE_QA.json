@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "corpus_entries": 4587,
+  "frozen_service_hashes_match": 7,
+  "r01_cases": 600,
+  "r01_query_configuration_rows": 3600,
+  "sampler_check": {
+    "independent_python_translation": true,
+    "not_php_execution": true,
+    "cases_match": true,
+    "allocation_match": true,
+    "source_overlap_with_exclusion_manifest": 0,
+    "query_overlap_with_exclusion_manifest": 0,
+    "unique_source_roots": 600
+  },
+  "paired_intervals_match": true,
+  "raw_account_secret_matches": 0,
+  "php_sql_execution_performed": false,
+  "book_pdf_or_human_free_text_included": false,
+  "source_license_basis": "Published official repository CC BY-NC 4.0 statement",
+  "separate_written_permission_claimed": false
+}

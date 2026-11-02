@@ -1,0 +1,23 @@
+{
+    "experiment": "SUPPLEMENTARY_OSA_CODEPATH_FAIRNESS_MICROBENCH_NOT_FINAL_RETEST",
+    "date": "2026-10-18T21:34:56+02:00",
+    "case_count": 3456,
+    "seed": 20261019,
+    "repetitions": 7,
+    "warmups": 2,
+    "php_version": "8.2.12",
+    "mbstring_enabled": true,
+    "no_database": true,
+    "no_holdout_cases": true,
+    "ascii_only_diagnostic": false,
+    "code_sha256": {
+        "services/SearchService.php": "bd92f47062730315e21939ca2f0eb3c94dd8e28b30a9db93e816d0f75f30e95f",
+        "tests/RegressionFixture.php": "6fc7e1d696dbdc460c20c36d0ccced301016d75815f8712e894f13ffea5f4c1d",
+        "experiments/audit_osa_fairness_cli.php": "92e271e863b313eab8d10ca4c3dc53701befb1636b873a00ff737ee2e71cd0cd"
+    },
+    "scope_warning": "Only isolated distance-function wall clock time. NOT end-to-end retrieval latency or an intrinsically fair cross-algorithm comparison. Never modify the frozen final holdout based on these timings.",
+    "outputs": [
+        "osa_implementation_timing_20261018_213455.csv",
+        "osa_implementation_summary_20261018_213455.csv"
+    ]
+}

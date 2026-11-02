@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-01",
+  "derived_fixture_not_original_sql_dump": true,
+  "approved_count": 4587,
+  "allowed_dictionary_fields": [
+    "id",
+    "category_id",
+    "status",
+    "tolour_word",
+    "indonesian_meaning",
+    "popularity",
+    "search_count"
+  ],
+  "approved_corpus_fingerprint": "bd524c4b8e694a96434ce96939bd515aabca3fec07ed97daf7ff54ca388c5103",
+  "fingerprinted_fields": [
+    "id",
+    "category_id",
+    "tolour_word",
+    "indonesian_meaning"
+  ],
+  "aggregate_popularity_and_search_count_retained": "Required by the frozen SQL exact-match admission order; not natural-query logs.",
+  "categories_allowlist": [
+    "id",
+    "name"
+  ],
+  "users_and_authentication_included": false,
+  "pending_or_rejected_contributions_included": false,
+  "source_lexical_redistribution_authorization": "SOURCE_DERIVED_PORTIONS_REUSE_BASED_ON_PUBLISHED_REPOSITORY_CC_BY_NC_4_0_STATEMENT",
+  "fixture_import_and_php_execution_tested_in_this_environment": false,
+  "license_information_url": "https://repositori.kemendikdasmen.go.id/information.html",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "project_specific_written_permission_obtained": false,
+  "public_package_revision_date": "2026-11-02"
+}

@@ -1,0 +1,30 @@
+{
+  "approved_entries": 4587,
+  "headword_character_lengths": {
+    "n": 4587,
+    "min": 1,
+    "median": 7,
+    "mean": 7.708960104643558,
+    "max": 32
+  },
+  "normalized_gloss_character_lengths": {
+    "n": 4587,
+    "min": 3,
+    "median": 29,
+    "mean": 33.89622847176804,
+    "max": 142
+  },
+  "gloss_whitespace_token_counts_before_stopwords": {
+    "n": 4587,
+    "min": 1,
+    "median": 4,
+    "mean": 5.141486810551559,
+    "max": 27
+  },
+  "multiword_glosses_before_stopwords_n": 4120,
+  "distinct_significant_gloss_tokens": 4037,
+  "significant_tokens_occurring_in_at_least_two_entries_n": 2537,
+  "normalized_headword_non_ascii_entries_n": 66,
+  "observed_normalized_headword_characters": " '-12345abcdeghiklmnoprstuwyèéëēěı",
+  "definition": "Python translation of SearchService normalization/token filter; descriptive of the matching 4587-entry current approved corpus; no PHP execution"
+}

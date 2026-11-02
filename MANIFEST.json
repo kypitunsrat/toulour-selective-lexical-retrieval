@@ -1,0 +1,317 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 157,
+    "sha256": "4b6ef466b256f84e17b55116f64495f724b65b6c556372d39c85cf727d6ee151"
+  },
+  {
+    "path": "DATA_AVAILABILITY.md",
+    "bytes": 3378,
+    "sha256": "0268b173db24e1e24e1742b7a6affdb69e09dcd4d28160e0cc8f0c3219ef5523"
+  },
+  {
+    "path": "ENVIRONMENT.json",
+    "bytes": 1024,
+    "sha256": "ee1024731db7c6ed96643570d2a8644810a727f1d1873a4867e72f3c4b1581c3"
+  },
+  {
+    "path": "MULAI_DI_SINI.txt",
+    "bytes": 1008,
+    "sha256": "d922edf51ab2e4e7ce19443ab9c874a9ddc130476b34da1d7e3e7c991333cf37"
+  },
+  {
+    "path": "PACKAGE_PROVENANCE.json",
+    "bytes": 10967,
+    "sha256": "d8c0cbf70741689ee05464c2ccfd6cd48bf160c5c0bac6e468a636399256ad71"
+  },
+  {
+    "path": "PACKAGE_QA.json",
+    "bytes": 721,
+    "sha256": "f3eb34ca3892b09b773f4ebc02ca850865e3e672d710523b658f24bacf9d9200"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3875,
+    "sha256": "27c9663ede0690405b9c43ddea05734bc55cf3b9691b174612ec40fe838370c6"
+  },
+  {
+    "path": "SOURCE_ATTRIBUTION.md",
+    "bytes": 2991,
+    "sha256": "7e7827c87a515edd8aef2c4bdc0a292269ed51de5d5ee88bc6cb333476ef817f"
+  },
+  {
+    "path": "analysis/POST_REVIEW_ANALYSIS_PROTOCOL.md",
+    "bytes": 2149,
+    "sha256": "7906bbc32210ea0b8889fc4a0b745ddbb953ca4ac536490ea618ddbb8ebca8e1"
+  },
+  {
+    "path": "analysis/R01_full_12_strata_6_configurations.csv",
+    "bytes": 9571,
+    "sha256": "8a39562171a2f8764ba32b7c6f8a71945200e27364fedff5af2ebb04708ee5ed"
+  },
+  {
+    "path": "analysis/R01_hash_verification.json",
+    "bytes": 6004,
+    "sha256": "c98f57deff88f8fefbcc9ac6042dcdf546ef55f8a8c4e43682355a07f16f7c1d"
+  },
+  {
+    "path": "analysis/R01_latency_query_mean_distribution.csv",
+    "bytes": 1569,
+    "sha256": "96e8305d88faa3b5cc1f03e0abf06ac7ead0a18e4a43f02d5805181173e92c5e"
+  },
+  {
+    "path": "analysis/R01_outcome_integrity.json",
+    "bytes": 427,
+    "sha256": "15a944cade64f7e60c84d19b52b03aa97ca0906cc95d9458662104393197ae2e"
+  },
+  {
+    "path": "analysis/R01_source_and_query_lengths.csv",
+    "bytes": 1708,
+    "sha256": "c129d3189f0e77947ae8544564e2f3614c0343f8b78d26cc5bec42f6d883682e"
+  },
+  {
+    "path": "analysis/corpus_descriptive_statistics.json",
+    "bytes": 911,
+    "sha256": "650d768bbb4ecd1761023e17975995d4a73cb2884133200b02a9e333e2828453"
+  },
+  {
+    "path": "analysis/legacy_evidence_verification.json",
+    "bytes": 2407,
+    "sha256": "2c2e59f3b18eb18832bb0a3876e8e28e2bb82994b157fb162e9745530a0b7b24"
+  },
+  {
+    "path": "analysis/paired_statistics_metadata.json",
+    "bytes": 778,
+    "sha256": "7c8f6ed9230150a8924edf70f1020b491268ccfcbcd38bbc10eea7a1c994f44a"
+  },
+  {
+    "path": "analysis/paired_statistics_recomputed.csv",
+    "bytes": 1280,
+    "sha256": "c2611334e6c0122966a86decfb92eb0aabf9e2fb35c64ef3b77d8780796fdb15"
+  },
+  {
+    "path": "analysis/recompute_paired_statistics.py",
+    "bytes": 3321,
+    "sha256": "18454ab5c129d998c98212ba8d55b402ccb4626723e89792a0fb23b4c964a320"
+  },
+  {
+    "path": "analysis/sampler_verification.json",
+    "bytes": 247,
+    "sha256": "bd98e6bb6900c1f748cbee8678f3fb365af615b3a8125aad999f9c26bcf37fe3"
+  },
+  {
+    "path": "data/R01_numeric_outputs.csv",
+    "bytes": 285909,
+    "sha256": "80e10df04d03e773616fed698a05caf7801a0ddde61728cb8fec1c90a0f9e7af"
+  },
+  {
+    "path": "data/historical/MAIN_1000_CURATED_LABELS.json",
+    "bytes": 509246,
+    "sha256": "f50870517760974f9f554f9cd71c06a9492fea1ac84bf09f58060811804170ba"
+  },
+  {
+    "path": "data/holdout/FINAL_HOLDOUT_PRIVATE_ANCHORS_4ead1cc1bf5f.json",
+    "bytes": 252707,
+    "sha256": "046a08a6387c76436f0f8c2d653aeaf581f8b2dd05bf6bc2e60bd60bf6983c50"
+  },
+  {
+    "path": "data/holdout/FINAL_HOLDOUT_PUBLIC_QUERIES_4ead1cc1bf5f.csv",
+    "bytes": 41705,
+    "sha256": "9322417044602be2d15bb2de17a21fcb91eaf59766918ccff23a995d99defe18"
+  },
+  {
+    "path": "data/holdout/FINAL_HOLDOUT_QA_MANIFEST_4ead1cc1bf5f.json",
+    "bytes": 5739,
+    "sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618"
+  },
+  {
+    "path": "data/lexical/FIXTURE_PROVENANCE.json",
+    "bytes": 1234,
+    "sha256": "85666dc7f291669d3cffdfdbf669396d9e6737f9e471371828b066f944a4eef6"
+  },
+  {
+    "path": "data/lexical/approved_corpus.json",
+    "bytes": 1061624,
+    "sha256": "6b139ad96ffae598c5354b823019376cce1a815b65c6a72326382f7ad91ba24d"
+  },
+  {
+    "path": "data/lexical/reviewer_fixture.sql",
+    "bytes": 1410318,
+    "sha256": "8035734d04c423975114abaa94804a8ac92f2cadf8521d6d0c0e8f451e3f683a"
+  },
+  {
+    "path": "historical_code/services/GoldStandardGeneratorService.php",
+    "bytes": 25543,
+    "sha256": "fef0989e14af1c7ae2eddd4eba563b57ad7dfaa6f7676dac5af3f3ff1dcdf290"
+  },
+  {
+    "path": "historical_code/services/RankingService.php",
+    "bytes": 8392,
+    "sha256": "1c9661ec5ffd332d2118c22e0b68911e43580773692faa0c1b47a57a23030dbb"
+  },
+  {
+    "path": "historical_code/services/SearchService.php",
+    "bytes": 36984,
+    "sha256": "0e486c777ad3bc0d699719ee52f1eaa6778b368e63cdc2657408a43c6dae0ac6"
+  },
+  {
+    "path": "project/config/database.php",
+    "bytes": 3599,
+    "sha256": "0efea9fca450962bb62e8bba8f2dfc02bd9492da12a075a459901a9eecbc1148"
+  },
+  {
+    "path": "project/experiments/FinalHoldoutPreflight.php",
+    "bytes": 7936,
+    "sha256": "3ca3e0e387c86a0b34b5f524d5248408ad6e1763cbeb5167adffbe7ef89f793d"
+  },
+  {
+    "path": "project/experiments/FinalHoldoutSampler.php",
+    "bytes": 9377,
+    "sha256": "874dd84a2cdae4a9c5c2b83febc66fe58377c2162621054c7d0e12e368d9daca"
+  },
+  {
+    "path": "project/experiments/IndependentBenchmarkCommon.php",
+    "bytes": 4842,
+    "sha256": "24962bbd239425bff96119aa94cea2e612a29ddcecad947b97859655fce1800e"
+  },
+  {
+    "path": "project/experiments/audit_osa_fairness_cli.php",
+    "bytes": 8021,
+    "sha256": "92e271e863b313eab8d10ca4c3dc53701befb1636b873a00ff737ee2e71cd0cd"
+  },
+  {
+    "path": "project/experiments/check_final_holdout_cli.php",
+    "bytes": 2221,
+    "sha256": "46ca2055386ea9a345c999b929272d7f06f04d55b0b608a2360d8a20f20a4080"
+  },
+  {
+    "path": "project/experiments/check_final_holdout_full_cli.php",
+    "bytes": 549,
+    "sha256": "c3cfd84c97fb7e403b9d26ac296604205deeaa6d9266a35eeeedda0b9828986b"
+  },
+  {
+    "path": "project/experiments/prepare_final_holdout_cli.php",
+    "bytes": 5413,
+    "sha256": "287f977d0da56219498ba8a0f032efd44b048a750e2a837c05b55966bf4acc7e"
+  },
+  {
+    "path": "project/experiments/run_final_holdout_cli.php",
+    "bytes": 8338,
+    "sha256": "c5ab81b1eca620f8d05ea502b1a4182c17189f02efb9021fd7c9130af520296f"
+  },
+  {
+    "path": "project/fixtures/final_holdout_analysis_plan.json",
+    "bytes": 1786,
+    "sha256": "4231fd90b624367c30a6913239adbffdfd953895a7456f1c0eead76840d1549d"
+  },
+  {
+    "path": "project/fixtures/final_holdout_approved_manifest.json",
+    "bytes": 5739,
+    "sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618"
+  },
+  {
+    "path": "project/fixtures/toulour_final_freeze_policy.json",
+    "bytes": 2074,
+    "sha256": "25e09a703d41bfcb05046432394b05de67a539474177f2001dcb25d5c57e0dd7"
+  },
+  {
+    "path": "project/fixtures/toulour_historical_exclusions.json",
+    "bytes": 162354,
+    "sha256": "aa2c49bf2c08fdc4cdc278b7d618d81d453251b6e5c6737e7e84d6180d7a45c0"
+  },
+  {
+    "path": "project/services/AdaptiveHybridV2Service.php",
+    "bytes": 967,
+    "sha256": "4a07cd6fd4d626cd99a5c8bd6bbbb3e60026a3f9d9e4561dee7669c1e76ae9f1"
+  },
+  {
+    "path": "project/services/ContextAwareRankingService.php",
+    "bytes": 6002,
+    "sha256": "50b42e77b113f49da4752219efcb822d99c8dc341eb18b02451f7f32c4447600"
+  },
+  {
+    "path": "project/services/EvidenceDrivenSelectionService.php",
+    "bytes": 6930,
+    "sha256": "daa50ff04e1f9da994f4879d741362ffdeaf3c01b054dc951856c9e72085f822"
+  },
+  {
+    "path": "project/services/ExperimentScenarioRegistry.php",
+    "bytes": 14823,
+    "sha256": "107065064bade3daaa5b46951ae2686521d709e509dbb36970e93a103639afae"
+  },
+  {
+    "path": "project/services/GlossProximityRankingService.php",
+    "bytes": 6465,
+    "sha256": "d7b9eb27f12845960f6bedf3c9235245c0f725bf97d563765ac59c6c533631b3"
+  },
+  {
+    "path": "project/services/RankingService.php",
+    "bytes": 8392,
+    "sha256": "1c9661ec5ffd332d2118c22e0b68911e43580773692faa0c1b47a57a23030dbb"
+  },
+  {
+    "path": "project/services/SearchService.php",
+    "bytes": 50616,
+    "sha256": "bd92f47062730315e21939ca2f0eb3c94dd8e28b30a9db93e816d0f75f30e95f"
+  },
+  {
+    "path": "requirements-analysis.txt",
+    "bytes": 13,
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  {
+    "path": "results/historical/error_analysis_tolour_20260824_113732.csv",
+    "bytes": 1056753,
+    "sha256": "475febaa707599dca017eee6c23ed988732e4043173ed14efc3cf5976ec5293c"
+  },
+  {
+    "path": "results/historical/hasil_benchmark_tolour_20260824_113732.csv",
+    "bytes": 9170,
+    "sha256": "d0e75afb8939addb476de12d0b602375724bf90917c65706289854adb657d00d"
+  },
+  {
+    "path": "results/toulour_final_holdout_results/FINAL_HOLDOUT_ONE_TIME_RUN_STARTED.lock",
+    "bytes": 174,
+    "sha256": "71024b7e952bcfac3c4f534771b5e1b7452f69043fb7ec08b63ce73e05774c1d"
+  },
+  {
+    "path": "results/toulour_final_holdout_results/final_holdout_manifest_20261018_200757_4ead1cc1bf5f.json",
+    "bytes": 5398,
+    "sha256": "c72966eae108f618eb6214045e14ad6f3f9a4cde0d345cf17cb2ab7b62e8b91d"
+  },
+  {
+    "path": "results/toulour_final_holdout_results/final_holdout_queries_20261018_200757_4ead1cc1bf5f.csv",
+    "bytes": 410372,
+    "sha256": "9b260cea34349ccfce98558af6aa01e9b13a69b8946abb216909629a06a6cf9a"
+  },
+  {
+    "path": "results/toulour_final_holdout_results/final_holdout_summary_20261018_200757_4ead1cc1bf5f.csv",
+    "bytes": 15950,
+    "sha256": "c83afddbf1a782e1339274a71106588d537f9328448ea9d34ee014ce2070b076"
+  },
+  {
+    "path": "results/toulour_osa_fairness_results/osa_implementation_manifest_20261018_213455.json",
+    "bytes": 1081,
+    "sha256": "0876a9598d38d654a7df63d15a5b80ae096c5b1bed9169443c810a8af19d9ce1"
+  },
+  {
+    "path": "results/toulour_osa_fairness_results/osa_implementation_summary_20261018_213455.csv",
+    "bytes": 221,
+    "sha256": "566ef44f0244223909fb609c2cdc51724b2eeb20360965bc9483c8b56d3a3c40"
+  },
+  {
+    "path": "results/toulour_osa_fairness_results/osa_implementation_timing_20261018_213455.csv",
+    "bytes": 859,
+    "sha256": "95e79e11ab17e6f2baa4fb1dfe1ec581de4ed333565a7aae61e0724ce8af4a4b"
+  },
+  {
+    "path": "tools/verify_archive.py",
+    "bytes": 337,
+    "sha256": "35fb7616b0ad1b03923f83dcb266c9f1ae8ff2651ced73129833cc1c5550e8c7"
+  },
+  {
+    "path": "tools/verify_sampler.py",
+    "bytes": 5693,
+    "sha256": "17233308c95f82cfeaa1a3909b1ff91b808741fde192ee97a251fe08433aaa92"
+  }
+]

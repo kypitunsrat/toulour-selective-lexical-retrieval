@@ -1,0 +1,4 @@
+implementation,repetitions,pair_count,median_us_per_pair,min_us_per_pair,max_us_per_pair
+app_levenshtein,7,3456,5.113,4.7571,6.5327
+pure_php_levenshtein,7,3456,17.918,16.4797,20.492
+app_osa,7,3456,26.6319,24.5587,32.8959

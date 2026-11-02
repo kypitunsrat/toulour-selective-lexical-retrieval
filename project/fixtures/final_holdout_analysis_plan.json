@@ -1,0 +1,14 @@
+{
+  "status": "LOCKED_BEFORE_FINAL_RETRIEVAL_RESULTS",
+  "approved_holdout_qa_manifest_sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618",
+  "dataset_description": "600 algorithm-blind synthetic source-anchored queries; 12 strata: 2 directions x 6 operations, 50 cases each",
+  "primary_comparison": ["v22_context_short_swap_fast", "fixed2_context_guard"],
+  "primary_outcome": "Paired difference in source Hit@5, full 600-case equal-stratum mixture",
+  "primary_interval": "Stratified percentile bootstrap 95% CI: 10000 resamples, resample 50 cases with replacement within each of 12 strata, deterministic seed TOULOUR-FINAL-ANALYSIS-20261019-R01",
+  "primary_significance": "Two-sided exact McNemar test on discordant paired source Hit@5 outcomes, report p and discordant counts",
+  "secondary_outcomes": ["Source Hit@1", "Source MRR", "group results by direction and operation", "latency mean, median, p95"],
+  "secondary_comparators": ["adaptive_full", "v2_context_rank", "fixed3_context_guard", "fixed2_osa_context_guard"],
+  "latency_protocol": "3 measured repetitions after 1 warmup per scenario-query, rotated scenario order by case, report environment and internal timing limitations",
+  "constraints": ["Never optimize on holdout results", "Report all 600 cases and all six methods", "Do not compute relevance precision, recall, F1, or verified no-match rates from source anchors", "Source miss does not imply returned non-anchor entries are irrelevant", "Synthetic stratified design is not an estimate of real-user query mixture", "No rerun after seeing results"],
+  "decision_rule": "Report primary effect size, CI and p value, practical latency tradeoff, and limits; do not call method best unless supported by independent relevant comparisons."
+}

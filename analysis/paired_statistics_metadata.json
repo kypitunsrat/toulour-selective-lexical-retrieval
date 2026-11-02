@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-31",
+  "provenance": "post-review analysis on frozen saved outputs; not retrieval rerun",
+  "input_name": "final_holdout_queries_20261018_200757_4ead1cc1bf5f.csv",
+  "input_sha256": "9b260cea34349ccfce98558af6aa01e9b13a69b8946abb216909629a06a6cf9a",
+  "script_sha256": "18454ab5c129d998c98212ba8d55b402ccb4626723e89792a0fb23b4c964a320",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "rng": "PCG64",
+  "discordant_hit5_proposed_only": 28,
+  "discordant_hit5_fixed2_only": 0,
+  "exact_two_sided_mcnemar_p": 7.450580596923828e-09,
+  "secondary_cis": "marginal and exploratory; no multiplicity adjustment",
+  "original_script_recovered": false,
+  "original_plan_rng_and_seed_string_conversion": "not specified; sensitivity mapping defined in revision protocol"
+}

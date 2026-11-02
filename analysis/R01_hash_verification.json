@@ -1,0 +1,128 @@
+[
+  {
+    "label": "QA manifest",
+    "path": "benchmarks/toulour_final_holdout_input/FINAL_HOLDOUT_QA_MANIFEST_4ead1cc1bf5f.json",
+    "expected_sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618",
+    "actual_sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618",
+    "match": true
+  },
+  {
+    "label": "Embedded QA",
+    "path": "project/project_toulour_research/fixtures/final_holdout_approved_manifest.json",
+    "expected_sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618",
+    "actual_sha256": "289f86b925e41fbc022e03586fb3e59820f1a464c3a97056a43c87fa9419f618",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/SearchService.php",
+    "expected_sha256": "bd92f47062730315e21939ca2f0eb3c94dd8e28b30a9db93e816d0f75f30e95f",
+    "actual_sha256": "bd92f47062730315e21939ca2f0eb3c94dd8e28b30a9db93e816d0f75f30e95f",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/ExperimentScenarioRegistry.php",
+    "expected_sha256": "107065064bade3daaa5b46951ae2686521d709e509dbb36970e93a103639afae",
+    "actual_sha256": "107065064bade3daaa5b46951ae2686521d709e509dbb36970e93a103639afae",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/RankingService.php",
+    "expected_sha256": "1c9661ec5ffd332d2118c22e0b68911e43580773692faa0c1b47a57a23030dbb",
+    "actual_sha256": "1c9661ec5ffd332d2118c22e0b68911e43580773692faa0c1b47a57a23030dbb",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/ContextAwareRankingService.php",
+    "expected_sha256": "50b42e77b113f49da4752219efcb822d99c8dc341eb18b02451f7f32c4447600",
+    "actual_sha256": "50b42e77b113f49da4752219efcb822d99c8dc341eb18b02451f7f32c4447600",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/AdaptiveHybridV2Service.php",
+    "expected_sha256": "4a07cd6fd4d626cd99a5c8bd6bbbb3e60026a3f9d9e4561dee7669c1e76ae9f1",
+    "actual_sha256": "4a07cd6fd4d626cd99a5c8bd6bbbb3e60026a3f9d9e4561dee7669c1e76ae9f1",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/GlossProximityRankingService.php",
+    "expected_sha256": "d7b9eb27f12845960f6bedf3c9235245c0f725bf97d563765ac59c6c533631b3",
+    "actual_sha256": "d7b9eb27f12845960f6bedf3c9235245c0f725bf97d563765ac59c6c533631b3",
+    "match": true
+  },
+  {
+    "label": "Frozen retrieval code",
+    "path": "project/project_toulour_research/services/EvidenceDrivenSelectionService.php",
+    "expected_sha256": "daa50ff04e1f9da994f4879d741362ffdeaf3c01b054dc951856c9e72085f822",
+    "actual_sha256": "daa50ff04e1f9da994f4879d741362ffdeaf3c01b054dc951856c9e72085f822",
+    "match": true
+  },
+  {
+    "label": "generator_sha256",
+    "path": "project/project_toulour_research/experiments/FinalHoldoutSampler.php",
+    "expected_sha256": "874dd84a2cdae4a9c5c2b83febc66fe58377c2162621054c7d0e12e368d9daca",
+    "actual_sha256": "874dd84a2cdae4a9c5c2b83febc66fe58377c2162621054c7d0e12e368d9daca",
+    "match": true
+  },
+  {
+    "label": "runner_sha256",
+    "path": "project/project_toulour_research/experiments/prepare_final_holdout_cli.php",
+    "expected_sha256": "287f977d0da56219498ba8a0f032efd44b048a750e2a837c05b55966bf4acc7e",
+    "actual_sha256": "287f977d0da56219498ba8a0f032efd44b048a750e2a837c05b55966bf4acc7e",
+    "match": true
+  },
+  {
+    "label": "freeze_policy_sha256",
+    "path": "project/project_toulour_research/fixtures/toulour_final_freeze_policy.json",
+    "expected_sha256": "25e09a703d41bfcb05046432394b05de67a539474177f2001dcb25d5c57e0dd7",
+    "actual_sha256": "25e09a703d41bfcb05046432394b05de67a539474177f2001dcb25d5c57e0dd7",
+    "match": true
+  },
+  {
+    "label": "historical_exclusion_sha256",
+    "path": "project/project_toulour_research/fixtures/toulour_historical_exclusions.json",
+    "expected_sha256": "aa2c49bf2c08fdc4cdc278b7d618d81d453251b6e5c6737e7e84d6180d7a45c0",
+    "actual_sha256": "aa2c49bf2c08fdc4cdc278b7d618d81d453251b6e5c6737e7e84d6180d7a45c0",
+    "match": true
+  },
+  {
+    "label": "private_anchors",
+    "path": "benchmarks/toulour_final_holdout_input/FINAL_HOLDOUT_PRIVATE_ANCHORS_4ead1cc1bf5f.json",
+    "expected_sha256": "046a08a6387c76436f0f8c2d653aeaf581f8b2dd05bf6bc2e60bd60bf6983c50",
+    "actual_sha256": "046a08a6387c76436f0f8c2d653aeaf581f8b2dd05bf6bc2e60bd60bf6983c50",
+    "match": true
+  },
+  {
+    "label": "public_queries",
+    "path": "benchmarks/toulour_final_holdout_input/FINAL_HOLDOUT_PUBLIC_QUERIES_4ead1cc1bf5f.csv",
+    "expected_sha256": "9322417044602be2d15bb2de17a21fcb91eaf59766918ccff23a995d99defe18",
+    "actual_sha256": "9322417044602be2d15bb2de17a21fcb91eaf59766918ccff23a995d99defe18",
+    "match": true
+  },
+  {
+    "label": "Result queries",
+    "path": "benchmarks/toulour_final_holdout_results/final_holdout_queries_20261018_200757_4ead1cc1bf5f.csv",
+    "expected_sha256": "9b260cea34349ccfce98558af6aa01e9b13a69b8946abb216909629a06a6cf9a",
+    "actual_sha256": "9b260cea34349ccfce98558af6aa01e9b13a69b8946abb216909629a06a6cf9a",
+    "match": true
+  },
+  {
+    "label": "Result summary",
+    "path": "benchmarks/toulour_final_holdout_results/final_holdout_summary_20261018_200757_4ead1cc1bf5f.csv",
+    "expected_sha256": "c83afddbf1a782e1339274a71106588d537f9328448ea9d34ee014ce2070b076",
+    "actual_sha256": "c83afddbf1a782e1339274a71106588d537f9328448ea9d34ee014ce2070b076",
+    "match": true
+  },
+  {
+    "label": "Retrieval runner",
+    "path": "project/project_toulour_research/experiments/run_final_holdout_cli.php",
+    "expected_sha256": "c5ab81b1eca620f8d05ea502b1a4182c17189f02efb9021fd7c9130af520296f",
+    "actual_sha256": "c5ab81b1eca620f8d05ea502b1a4182c17189f02efb9021fd7c9130af520296f",
+    "match": true
+  }
+]

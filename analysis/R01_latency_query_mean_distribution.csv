@@ -1,0 +1,7 @@
+﻿scenario_id,query_level_means_n,recorded_measured_calls_n,unit,basis,mean,median,q1,q3,iqr,p95,sample_sd
+adaptive_full,600,1800,ms,distribution of per-query means over three calls; not pooled individual-call distribution,23.153985444444434,29.19705,6.76633333333335,38.2516416666665,31.48530833333315,46.135718333333344,16.617880024567537
+v2_context_rank,600,1800,ms,distribution of per-query means over three calls; not pooled individual-call distribution,23.489516222222232,28.9179333333335,6.790725000000025,38.8305333333335,32.039808333333475,46.358951666667004,17.182207630463147
+v22_context_short_swap_fast,600,1800,ms,distribution of per-query means over three calls; not pooled individual-call distribution,29.63760377777777,34.492233333333004,8.4558,48.898550000000256,40.44275000000026,58.4876900000003,21.427676962617983
+fixed2_context_guard,600,1800,ms,distribution of per-query means over three calls; not pooled individual-call distribution,24.44118238888888,28.93255,6.780808333333351,40.23046666666675,33.4496583333334,50.116093333333,18.026632045690743
+fixed3_context_guard,600,1800,ms,distribution of per-query means over three calls; not pooled individual-call distribution,36.609932222222234,30.9476,8.036150000000024,63.182333333333,55.14618333333297,93.500993333333,32.132702371468966
+fixed2_osa_context_guard,600,1800,ms,distribution of per-query means over three calls; not pooled individual-call distribution,125.57841599999998,99.7880166666685,39.468358333333,207.3432999999975,167.87494166666448,278.2925383333334,92.49316074693822

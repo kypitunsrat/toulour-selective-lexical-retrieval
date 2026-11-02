@@ -1,0 +1,21 @@
+{
+  "rows": 3600,
+  "cases": 600,
+  "all_saved_query_metrics_match_returned_ids": true,
+  "proposed_hit5": 433,
+  "fixed2_hit5": 405,
+  "discordant_n": 28,
+  "discordant_operations": {
+    "adjacent_swap": 28
+  },
+  "discordant_directions": {
+    "tolour_to_id": 23,
+    "id_to_tolour": 5
+  },
+  "fixed2_fixed3_ranked_list_differences": 0,
+  "proposed_osa_list_differing_case_ids": [
+    "F0431",
+    "F0494",
+    "F0560"
+  ]
+}

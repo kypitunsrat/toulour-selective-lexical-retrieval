@@ -1,0 +1,54 @@
+{
+  "status": "PRE_REGISTERED_LOCKED_2026-10-19",
+  "approved_corpus_count": 4587,
+  "approved_corpus_sha256": "bd524c4b8e694a96434ce96939bd515aabca3fec07ed97daf7ff54ca388c5103",
+  "code_hashes": {
+    "services/SearchService.php": "bd92f47062730315e21939ca2f0eb3c94dd8e28b30a9db93e816d0f75f30e95f",
+    "services/ExperimentScenarioRegistry.php": "107065064bade3daaa5b46951ae2686521d709e509dbb36970e93a103639afae",
+    "services/RankingService.php": "1c9661ec5ffd332d2118c22e0b68911e43580773692faa0c1b47a57a23030dbb",
+    "services/ContextAwareRankingService.php": "50b42e77b113f49da4752219efcb822d99c8dc341eb18b02451f7f32c4447600",
+    "services/AdaptiveHybridV2Service.php": "4a07cd6fd4d626cd99a5c8bd6bbbb3e60026a3f9d9e4561dee7669c1e76ae9f1",
+    "services/GlossProximityRankingService.php": "d7b9eb27f12845960f6bedf3c9235245c0f725bf97d563765ac59c6c533631b3",
+    "services/EvidenceDrivenSelectionService.php": "daa50ff04e1f9da994f4879d741362ffdeaf3c01b054dc951856c9e72085f822"
+  },
+  "exclusions_sha256": "aa2c49bf2c08fdc4cdc278b7d618d81d453251b6e5c6737e7e84d6180d7a45c0",
+  "seed": "TOULOUR-FINAL-HOLDOUT-20261019-LOCKED-R01",
+  "comparison_scenarios": [
+    "adaptive_full",
+    "v2_context_rank",
+    "v22_context_short_swap_fast",
+    "fixed2_context_guard",
+    "fixed3_context_guard",
+    "fixed2_osa_context_guard"
+  ],
+  "primary_endpoint": "source_hit_at_5 (paired, source-root clustered)",
+  "secondary_endpoints": [
+    "source_hit_at_1",
+    "mrr",
+    "latency_mean_median_p95"
+  ],
+  "sample_plan": {
+    "directions": [
+      "tolour_to_id",
+      "id_to_tolour"
+    ],
+    "operations": [
+      "exact",
+      "prefix",
+      "substitution",
+      "deletion",
+      "insertion",
+      "adjacent_swap"
+    ],
+    "cases_per_direction_operation": 50,
+    "total_cases": 600,
+    "distinct_source_roots": 600
+  },
+  "scientific_caveats": [
+    "synthetic queries not naturalistic",
+    "source anchors not exhaustive relevance judgments",
+    "no gold F1 precision recall",
+    "not adjudicated no-match"
+  ],
+  "state": "PREPARE_SAMPLE_ONLY_NO_BENCHMARK"
+}
